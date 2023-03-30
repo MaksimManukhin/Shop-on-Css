@@ -1,0 +1,60 @@
+.promo{
+    position: relative;
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../../../src/img/bg\ .png) center (center/cover) no-repeat;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__header{
+        color: aliceblue;
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 42px;
+    }
+    &_subheader{
+        margin-top: 17px;
+        color: azure;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &__icons{
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon{
+        width: 106px;
+        text-align: center;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    &__link{
+        position: absolute;
+    color: azure;
+    font-family: "Museo Sans Cyrl-500";
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 40px;
+        text-decoration: none;
+        a{
+            text-transform: uppercase;
+         text-decoration: none;
+        }
+    }
+    &__descr{
+        
+        margin-left: -70px;
+    }
+
+    
+}
